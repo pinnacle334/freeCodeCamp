@@ -1,2 +1,2 @@
 # freeCodeCamp
-This repo contains all my learning streak I did with freeCodeCamp, as well as all the projects needed for the certifications
+This repository contains all my learning progress with freeCodeCamp, including all the projects required for the certifications.
