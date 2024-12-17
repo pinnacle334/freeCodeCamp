@@ -1,0 +1,110 @@
+* {
+    box-sizing: content-box;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+
+
+.table {
+    display: flex;
+    flex-wrap: nowrap;
+    /* justify-content: space-between; */
+    width: 100%;
+    padding: 10px;
+    /* border-right: 1px solid black; */
+
+}
+
+.table #nav-column {
+    min-width: 240px;
+    max-width: 240px;
+    height: 100vh;
+    overflow-y: auto;
+    padding: 0px;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin-right: 5px;
+    /* border: 2px solid black; */
+}
+
+.table #section-column {
+    flex-grow: 1;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+    margin-left: 5px;
+    height: 100vh;
+    overflow-y: auto;
+    /* border: 1px solid black; */
+}
+@media (max-width: 700px){
+    .table {
+        flex-wrap: wrap;
+    }
+    .table #section-column, 
+    .table #nav-column {
+        flex-basis: 100%;
+        width: 100%;
+        margin: 0;
+    }
+    .table #nav-column {
+        max-width: none;
+        width: 100%;
+        min-width: 0;
+        height: 250px;
+        overflow-y: auto;
+        margin-bottom: 10px;
+    }
+}
+header {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.table #nav-column a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    border-top: 2px solid rgb(129, 123, 123);
+    margin: auto;
+    padding: 15px 0;
+    
+}
+.table #nav-column a:hover {
+    color: inherit;
+    cursor:default;
+}
+.table #nav-column a:first-of-type {
+    margin-top: 25px;
+}
+section {
+    width: 90%;
+    margin: 25px auto;
+    text-align: justify;
+    /* margin-bottom: 10px; */
+}
+pre {
+    background-color: #f0f0f0;
+    color: #000;
+    border-radius: 10px;
+    width: auto;
+    margin: 0 auto;
+}
+.code {
+    position: relative;
+    left: -30px;
+    padding-top: 5px;
+}
+.code_comment {
+    color: rgb(17, 168, 17);
+}
+.code_run {
+    color: rgb(155, 140, 11);
+}
+

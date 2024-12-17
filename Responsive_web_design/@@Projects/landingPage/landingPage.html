@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="freeCodeCamp product landing Page project" />
+    <title>Product landing Page</title>
+    <!-- <link rel="stylesheet" href="practice.css" /> -->
+    <link rel="stylesheet" href="landingPage.css">
+</head>
+
+<body>
+    <header id="header">
+        <img src="" alt="" id="header-img">
+        <!--The navbar should always be at the top of the viewport. (This is part of the test)-->
+        <!--OTher tests-->
+        <!--Product landing page should have at least one @media query-->
+        <!--Your product landing page should utilize CSS flexbox at least once-->
+        <nav id="nav-bar">
+            <a href="#footer" class="nav-link">Features</a>
+            <a href="#video" class="nav-link">How it works</a>
+            <a href="#pricing" class="nav-link">Pricing</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Handcrafted, home-made masterpieces</h1>
+        <form id="form" method="POST" action="https://www.freecodecamp.com/email-submit">
+            <label for="email">
+                <input type="email" id="email" name="email" placeholder="Enter your email address"></label>
+
+            <input type="submit" id="submit" value="GET STARTED">
+        </form>
+        <section>
+            <div class="pre-advert">
+                <img src="" class="pre-advert-img" alt="#">
+                <div class="pre-advert-writeup">
+                    <p>
+                    <h2>Premium Materials</h2>
+                    </p>
+                    <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity
+                        of your purchase.</p>
+                </div>
+            </div>
+            <div class="pre-advert">
+                <img src="" class="pre-advert-img" alt="#">
+                <div class="pre-advert-writeup">
+                    <p>
+                    <h2>Fast Shipping</h2>
+                    </p>
+                    <p>We make sure you receive your trombone as soon as we have finished making it. We also provide
+                        free returns if you are not satisfied.</p>
+                </div>
+            </div>
+            <div class="pre-advert">
+                <img src="" class="pre-advert-img" alt="#">
+                <div class="pre-advert-writeup">
+                    <p>
+                    <h2>Quality Assurance</h2>
+                    </p>
+                    <p>For every purchase you make, we will ensure there are no damages or faults and we will check and
+                        test the pitch of your instrument.</p>
+                </div>
+            </div>
+        </section>
+        <video id="video" controls>
+        <source src="video-file.mp4" type="video/mp4">
+        </video>
+        <section id="pricing">
+            <div class="product-display">
+                <form action="#" method="POST">
+                    <h4>Tenor Trombone</h4>
+                    <p class="price">$600</p>
+                    <p class="product-description">Lorem ipsum.</p>
+                    <p class="product-description">Lorem ipsum.</p>
+                    <p class="product-description">Lorem ipsum dolor.</p>
+                    <p class="product-description">Lorem ipsum.</p>
+                    <input type="submit" value="SELECT">
+                </form>
+            </div>
+            <div class="product-display">
+                <form action="#" method="POST">
+                    <h4>Bass Trombone</h4>
+                    <p class="price">$900</p>
+                    <p class="product-description">Lorem ipsum.</p>
+                    <p class="product-description">Lorem ipsum.</p>
+                    <p class="product-description">Lorem ipsum dolor.</p>
+                    <p class="product-description">Lorem ipsum.</p>
+                    <input type="submit" value="SELECT">
+                </form>
+            </div>
+            <div class="product-display">
+                <form action="#" method="POST">
+                    <h4>VValve Trombone</h4>
+                    <p class="price">$1200</p>
+                    <p class="product-description">Plays similar to a Trumpet</p>
+                    <p class="product-description">Great for Jazz Bands</p>
+                    <p class="product-description">Lorem ipsum dolor.</p>
+                    <p class="product-description">Lorem ipsum.</p>
+                    <input type="submit" value="SELECT">
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer id="footer">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Contract</a>
+        <p>Copyright 2016, Original Trombones</p>
+    </footer>
+
+</body>
+
+</html>

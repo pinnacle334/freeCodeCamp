@@ -1,0 +1,50 @@
+body {
+    background-color: rgba(102, 205, 170, 0.3);
+    font-family: verdana, san-serif;
+
+  }
+  h1, #description {
+    text-align: center;
+  }
+  #survey-form {
+    margin: auto;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    width: 80%;
+    max-width: 600px;
+    background-color: rgba(0, 139, 139, 1)
+  }
+  label {
+    display: block;
+    margin: 10px;
+    border: none;
+  }
+  input, select, textarea {
+    width: 100%;
+    margin: auto;
+    margin-top: 5px;
+    padding: 5px;
+  }
+  /* input {
+    margin-right: 15px;
+  } */
+  .recommendation input {
+    /* display: block; */
+    width: auto;
+    margin-right: 15px;
+  }
+input[type="checkbox"] {
+    display: inline;
+    width: auto;
+}
+#submit {
+    background-color: rgb(95, 158, 160);
+    font-size: 20px;
+    margin-bottom: 15px;
+    border: none;
+    cursor: pointer;
+}
+fieldset {
+    border: none;
+}
+
