@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: grey;
+    color: white;
+}
+#main-body {
+    border: 3px solid red;
+    max-width: 500px;
+    height: auto;
+    padding: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.inner-box {
+    /* border: 2px solid blue; */
+    padding: 10px;
+    width: 75%;
+    height: 75%;
+    margin: auto;
+
+}
+#output { 
+    border: 3px solid red;
+    max-width: 500px;
+    height: auto;
+    padding: 15px;
+    margin-top: 10px;
+    font-size: larger;
+    display: none;
+}
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#convert-btn {
+    background-color: blue;
+    color: white;
+    font-size: larger;
+    border: none;
+}
+
