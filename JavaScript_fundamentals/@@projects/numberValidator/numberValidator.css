@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: antiquewhite;
+}
+#main {
+    width: 450px;
+    height: auto;
+    margin: 15px auto;
+}
+h1 {
+    text-align: center;
+}
+
+#tel-body {
+    background-color: rgb(36, 35, 35);
+    width: 68%;
+    height: 510px;
+    padding: 10px 5px;
+    border-radius: 15px;
+    margin: 5px auto;
+}
+#dot {
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: relative;
+    left: 45%;
+    top: 5px;
+}
+#tel-screen {
+    background-color: rgb(240, 232, 222);
+    margin: auto;
+    width: 98%;
+    height: 85%;
+}
+p {
+    color: black;
+    text-align: center;
+    position: relative;
+    top: 5px;
+}
+input{
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: large;
+}
+#results-div {
+    /* background-color: red; */
+    width: 95%;
+    height: 330px;
+    margin: 7px auto;
+    padding: 5px;
+    font-size: 18px;
+    overflow:auto;
+}
+#tel-buttons {
+    width: 80%;
+    margin-top: 7px;
+    height: auto; 
+}
+button {
+    padding: 8px;
+    width: 80px;
+    display: inline;
+}
+#tel-buttons :first-child {
+    margin-left: 20px;
+    background-color: rgb(147, 187, 153);
+}
+#tel-buttons :last-child {
+    margin-left: 10px;
+    position: relative;
+    right: -90px;
+    background-color: rgb(222, 154, 154);
+}
