@@ -1,0 +1,118 @@
+:root {
+    --base-font: black;
+    --base-bg: rgb(184, 223, 166);
+}
+/* * {
+    box-sizing: border-box;
+} */
+body {
+    background-color: rgb(39, 2, 2);
+}
+header {
+    color: white;
+    text-align: center;
+}
+main {
+    width: 99%;
+    height: auto;
+    margin: 10px auto;
+}
+#main-body {
+    width: 500px;
+    height: auto;
+    margin: 10px auto;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+input {
+    padding: 10px;
+    border-radius: 3px;
+    width: 55%;
+}
+button {
+    padding: 12px;
+    margin-left: 10px;
+    width: 20%;
+    border-radius: 10px;
+    background-color: var(--base-bg);
+    cursor: pointer;
+    border: none;
+}
+#display-box {
+    background-color: rgb(241, 237, 237);
+    width: 80%;
+    height: 400px;
+    margin: 10px auto;
+    color: black;
+
+}
+#pokemon-name {
+    text-align: left;
+    padding: 10px;
+    text-transform: uppercase;
+}
+#pokemon-id {
+    text-align: left;
+    position: relative;
+    top: -28px;
+    left: 150px;
+}
+
+#sprite {
+    width: 250px;
+    height: 250px;
+    /* background-color: black; */
+    position: relative;
+    top: 90px;
+    left: 60px;
+}
+#weight {
+    text-align: left;
+    font-size: small;
+    position: relative;
+    top: -15px;
+    left: 10px;
+}
+#height {
+    font-size: small;
+    position: relative;
+    top: -27px;
+    left: 10px;
+}
+#types {
+    font-size: small;
+    position: relative;
+    top: 260px;
+    left: -170px;
+}
+.bold {
+    font-weight: bold;
+}
+#table-section {
+    width: 95%;
+    height: auto;
+    margin: 5px auto 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2px;
+}
+.table-head, .table-body {
+    background-color: var(--base-bg);
+    color: var(--base-font);
+    padding: 5px;
+    height: 25px;
+}
+.table-head{
+    width: 50%;
+    /* margin-bottom: 2px;
+    margin-right: 2px; */
+}
+.table-body {
+    width: 30%;
+    /* margin-bottom: 2px;
+    margin-left: 2px; */
+}
